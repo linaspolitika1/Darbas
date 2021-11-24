@@ -34,7 +34,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     z-index: 9999;
 }
 
@@ -99,6 +99,64 @@ input{
     padding: 10px;
     width: 350px;
 }
+.button1{
+    width: 100px;
+    text-align: center;
+}
+ .input, .button1{
+    position: relative;
+    left: 90px;
+}
+.icons-grid{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(235, 235, 231);
+}
+.svg{
+    width: 70px;
+    height: 70px;
+    padding-top: 80px;
+}
+.svg-text{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+/* text-image-grid */
+
+.text-image{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bg-image{
+    width:50%;
+}
+
+/* testimonials */
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(235, 235, 231);
+}
+
+.testimonials img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.testimonials h2{
+    color: black;
+}
+.testimonials-text{
+    width: 250px;
+    text-align: center;
+    color: rgb(117, 117, 115);
+}
+
+
 
 /* Media-queries */
 
